@@ -68,3 +68,33 @@ body{
 .herotwo{
     max-width: 400px;
 }
+.page2{
+    padding: 48px 15%;
+}
+.titulo2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937
+    font-weight: 900;
+    justify-content: center;
+}
+.cartoes{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cartao{
+    width: 150px;
+    text-align: center;
+}
+.cartao-img{
+    border: 4px solid #3822F6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+.cartao p{
+    color: gray;
+    font-size: 14px;
+}
