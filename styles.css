@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 280px;
+    padding: 16px 15%;
 }
 .logo{
     color: white;
@@ -74,7 +74,7 @@ body{
 .titulo2{
     text-align: center;
     font-size: 36px;
-    color: #1f2937
+    color: #1f2937;
     font-weight: 900;
     justify-content: center;
 }
@@ -89,7 +89,7 @@ body{
     text-align: center;
 }
 .cartao-img{
-    border: 4px solid #3822F6;
+    border: 4px solid #3882F6;
     border-radius: 16px;
     width: 150px;
     height: 150px;
@@ -97,4 +97,24 @@ body{
 .cartao p{
     color: gray;
     font-size: 14px;
+}
+.pagfinal{
+    background-color: #E5E7EB;
+    padding: 80px 15%;
+}
+.text{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.autor{
+    text-align: right;
+    font-weight: bold;
+    color: #1F2937;
+}
+.pag3{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
 }
